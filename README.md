@@ -1,8 +1,7 @@
 # Helbot
 HellBot
-# SpiceBot
-
-These are custom modules for Spicebot, an IRC bot built on the Sopel framework.
+These are custom modules for helbot, an IRC bot built on the Sopel framework.
+Based on Spicebot by deathbybandaid
 ______________________________________
 
 ## SpiceBot Wiki
@@ -11,10 +10,6 @@ ______________________________________
 
 ______________________________________
 
-## Commands
-
-[List Of Commands](https://github.com/deathbybandaid/SpiceBot/wiki/Modules)
-______________________________________
 
 ## Install Procedure
 
