@@ -20,7 +20,7 @@ import random
 import urllib
 from os.path import exists
 
-devbot = 'dev' ## If using a development bot and want to bypass commands, this is what the bots name ends in
+#devbot = 'dev' ## If using a development bot and want to bypass commands, this is what the bots name ends in
 botdevteam = ['deathbybandaid','DoubleD','Mace_Whatdo','dysonparkes','PM','under_score']
 
 ## This runs for every custom module and decides if the module runs or not
