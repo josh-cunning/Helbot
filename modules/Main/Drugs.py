@@ -4,15 +4,12 @@ from __future__ import unicode_literals, absolute_import, print_function, divisi
 import sopel.module
 import sys
 import os
-shareddir = os.path.dirname(os.path.dirname(__file__))
-sys.path.append(shareddir)
-from SpicebotShared import *
+import SpicebotShared 
 
 @sopel.module.commands('drugs')
 def mainfunction(bot, trigger):
-    enablestatus, triggerargsarray = spicebot_prerun(bot, trigger, trigger.group(1))
-    if not enablestatus:
-        execute_main(bot, trigger, triggerargsarray)
+    enablestatus, triggerargsarray = SpicebotShared.spicebot_prerun(bot, trigger, trigger.group(1))    
+    execute_main(bot, trigger, triggerargsarray)
     
 def execute_main(bot, trigger, triggerargsarray):
     bot.say(trigger.nick + " contemplates selling everything and moving somewhere tropical to sell drugs on a beach.")
